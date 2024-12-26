@@ -8,12 +8,12 @@ services:
     networks:
       - app-network
 
-  client-gateway:
-    build: ./client-gateway
+  client_gateway:
+    build: ./client_gateway
     ports:
       - ${CLIENT_GATEWAY_PORT}:3000
     volumes:
-      - ./client-gateway/src:/usr/src/app/src
+      - ./client_gateway/src:/usr/src/app/src
     command: "pnpm run start:dev"
     environment:
       - PORT=3000
