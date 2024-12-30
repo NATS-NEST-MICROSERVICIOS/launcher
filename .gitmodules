@@ -1,3 +1,9 @@
 [submodule "client_gateway"]
 	path = client_gateway
 	url = https://github.com/NATS-NEST-MICROSERVICIOS/client_gateway_microservice.git
+[submodule "order-ms"]
+	path = order-ms
+	url = https://github.com/NATS-NEST-MICROSERVICIOS/orders_microservice.git
+[submodule "products"]
+	path = products
+	url = https://github.com/NATS-NEST-MICROSERVICIOS/products_microservice.git
